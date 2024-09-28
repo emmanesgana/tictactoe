@@ -16,21 +16,27 @@
     <main>
         <h1 class="title">Tic Tac Toe</h1>
         <div id="result" class="result">
+
+        </div>
         </div>
         <div id="root" class="board">
 
         </div>
         <div id="form" class="form">
             <div id="players" class="players">
-                <input type="text" name="player1" id="player1" placeholder="Player 1 Name">
-                <p class="versus">VS</p>
-                <input type="text" name="player2" id="player2" placeholder="Player 2 Name">
+                <div class="player-info">
+                    <div class="player1-score"></div>
+                    <input type="text" name="player1" id="player1" placeholder="Player 1 Name">
+                </div>
+                <div class="player-info">
+                    <div class="player2-score"></div>
+                    <input type="text" name="player2" id="player2" placeholder="Player 2 Name">
+                </div>
             </div>
             <div id="buttons" class="buttons">
                 <button id="start" class="start">Start</button>
                 <button id="restart" class="restart">Restart</button>
             </div>
-
         </div>
     </main>
     <script src="index.js"></script>

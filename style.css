@@ -22,7 +22,7 @@
   body {
     line-height: 1.3;
     -webkit-font-smoothing: antialiased;
-    margin: 2em;
+    margin: 1.5em;
     background-color: #f5f5f5;
     font-family: "Karla", sans-serif;
     color: #ffffff;
@@ -74,7 +74,7 @@ main {
 .board {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3,1fr);
-    padding: 1em;
+    margin: 1em 0;
 }
 
 .square {
@@ -96,10 +96,25 @@ main {
 .result {
   font-size: 1.25rem;
   height: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1em 0;
 }
 
 .title {
-    font-size: 3rem;
+  font-size: 3rem;
+  margin-top: 0.65em;
+}
+
+.rules {
+  margin: 0 auto;
+}
+
+.rules p {
+  display: flex;
+
 }
 
 .form {
@@ -131,7 +146,27 @@ button {
     justify-content: space-between;
 }
 
+.buttons {
+  margin-bottom: 1em;
+}
+
 .player-name {
   font-weight: 600;
   color: #fbff27;
+}
+
+.next {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.player-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-weight: 600;
 }
