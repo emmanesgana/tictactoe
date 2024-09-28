@@ -66,7 +66,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 580px;
+    height: 585px;
     max-width: 520px;
     border-radius: 10px;
 }
@@ -74,7 +74,7 @@ main {
 .board {
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3,1fr);
-    margin: 1em 0;
+    margin-top: 1em;
 }
 
 .square {
@@ -100,7 +100,7 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 1em 0;
+  margin: 0.5em 0 0.5em 0;
 }
 
 .title {
@@ -151,7 +151,7 @@ button {
 }
 
 .player-name {
-  font-weight: 600;
+  font-weight: 900;
   color: #fbff27;
 }
 
@@ -167,6 +167,11 @@ button {
   align-items: center;
 }
 
-label {
-  font-weight: 600;
+.player-name-score {
+  font-weight: 900;
+}
+
+.score1,
+.score2 {
+  font-weight: 400;
 }
