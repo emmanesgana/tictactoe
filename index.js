@@ -6,7 +6,7 @@ restartButton.addEventListener("click", () => {
 })
 
 startButton.addEventListener("click", () => {
-    if (document.querySelector("#player1").value === "" || document.querySelector("#player1").value === "") {
+    if (document.querySelector("#player1").value === "" || document.querySelector("#player2").value === "") {
         alert("Enter player name!");
         return
     };
